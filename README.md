@@ -3,32 +3,32 @@ Convert-Sturing
 
 A simple program that can decode your *.mt files to *.t .
 
-Simple *.mt file to convert ( without '=' ):
-
-======================
+## Simple *.mt file to convert ( without '=' ):
 
 
+---
+'''
    0A->1AR  comment
    1A->0AR
 
+'''
+---
 
-======================
+## Output file ( *.t ):
 
-Output file ( *.t ):
-
-======================
-
+---
+'''
    A: 
    0 1 R A
    1 0 R A
+'''
+---
 
-======================
+## Link to sturing repo :
 
-Link to sturing :
+[sturing](https://github.com/ktalik/sturing)
 
-https://github.com/ktalik/sturing
-
-======================
+---
 
 Copyright 2013 Bogdan Cichy sulphux@gmail.com
 
@@ -38,4 +38,4 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 
 You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
 
-======================
+---
