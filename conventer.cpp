@@ -10,17 +10,23 @@ int main()
 	string line;
 	char state = '\0';
 
+	cout << "Turing machine (MT format) source path:\n";
+
+	string path;
+
+	cin >> path;
+
 	ofstream fi ;
-	fi.open("multi3.txt");
+	fi.open("outputMachine.t");
 
 	ifstream file;
-	file.open( "multi2.txt", ios::in );
+	file.open( path, ios::in );
 
 	if (file.good())
 	{
 		while (!file.eof())
 		{
-			if ( getline( file, line ) ) {
+			if ( getline( file, line ) ) {Æ
 
 			if (line.at(1) != state)
 			{
@@ -34,6 +40,11 @@ int main()
 		}
 		file.close();
 	}
+	else
+	{
+		cout << "Can't open file to convert!\n";
+		exit (1);
+		}
 	fi.close();
 	return 0;
 }
