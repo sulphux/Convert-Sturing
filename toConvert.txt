@@ -1,4 +1,4 @@
-0a->AbR
+0A->aBR
 1A->bCR
 2A->cDR
 3A->dER
