@@ -1,7 +1,5 @@
-test
-a :
-0 A R b
-A :
+A:
+0 a R B
 1 b R C
 2 c R D
 3 d R E
@@ -13,7 +11,7 @@ A :
 9 j R K
 * k R L
 = = L N
-B :
+B:
 0 0 R B
 1 1 R B
 2 2 R B
@@ -27,7 +25,7 @@ B :
 * * R B
 = = R B
 . 0 L M
-C :
+C:
 0 0 R C
 1 1 R C
 2 2 R C
@@ -41,7 +39,7 @@ C :
 * * R C
 = = R C
 . 1 L M
-D :
+D:
 0 0 R D
 1 1 R D
 2 2 R D
@@ -55,7 +53,7 @@ D :
 * * R D
 = = R D
 . 2 L M
-E :
+E:
 0 0 R E
 1 1 R E
 2 2 R E
@@ -69,7 +67,7 @@ E :
 * * R E
 = = R E
 . 3 L M
-F :
+F:
 0 0 R F
 1 1 R F
 2 2 R F
@@ -83,7 +81,7 @@ F :
 * * R F
 = = R F
 . 4 L M
-G :
+G:
 0 0 R G
 1 1 R G
 2 2 R G
@@ -97,7 +95,7 @@ G :
 * * R G
 = = R G
 . 5 L M
-H :
+H:
 0 0 R H
 1 1 R H
 2 2 R H
@@ -111,7 +109,7 @@ H :
 * * R H
 = = R H
 . 6 L M
-I :
+I:
 0 0 R I
 1 1 R I
 2 2 R I
@@ -125,7 +123,7 @@ I :
 * * R I
 = = R I
 . 7 L M
-J :
+J:
 0 0 R J
 1 1 R J
 2 2 R J
@@ -139,7 +137,7 @@ J :
 * * R J
 = = R J
 . 8 L M
-K :
+K:
 0 0 R K
 1 1 R K
 2 2 R K
@@ -153,7 +151,7 @@ K :
 * * R K
 = = R K
 . 9 L M
-L :
+L:
 0 0 R L
 1 1 R L
 2 2 R L
@@ -167,7 +165,7 @@ L :
 * * R L
 = = R L
 . * L M
-M :
+M:
 0 0 L M
 1 1 L M
 2 2 L M
@@ -191,7 +189,7 @@ h h R A
 i i R A
 j j R A
 k k R A
-N :
+N:
 a 0 L N
 b 1 L N
 c 2 L N
@@ -204,7 +202,7 @@ i 8 L N
 j 9 L N
 k * L N
 . . R O
-O :
+O:
 0 0 R O
 1 1 R O
 2 2 R O
@@ -219,9 +217,9 @@ O :
 x x R O
 = = R O
 . & R P
-P :
+P:
 . 0 L R
-R :
+R:
 0 0 L R
 1 1 L R
 2 2 L R
@@ -234,7 +232,7 @@ R :
 9 9 L R
 * * R S
 & & L R
-S :
+S:
 & & L l
 0 x R V
 1 0 L T
@@ -247,7 +245,7 @@ S :
 8 7 L T
 9 8 L T
 x x R S
-T :
+T:
 x x L T
 0 0 L T
 1 1 L T
@@ -271,7 +269,7 @@ g g R U
 h h R U
 i i R U
 j j R U
-U :
+U:
 0 a R a
 1 b R b
 2 c R c
@@ -283,7 +281,7 @@ U :
 8 i R i
 9 j R j
 * * L Z
-a :
+a:
 0 0 R a
 1 1 R a
 2 2 R a
@@ -308,7 +306,7 @@ h 7 L X
 i 8 L X
 j 9 L X
 & & R a
-b :
+b:
 0 0 R b
 1 1 R b
 2 2 R b
@@ -333,7 +331,7 @@ h 8 L X
 i 9 L X
 j 0 L W
 & & R b
-c :
+c:
 0 0 R c
 1 1 R c
 2 2 R c
@@ -358,7 +356,7 @@ h 9 L X
 i 0 L W
 j 1 L W
 & & R c
-d :
+d:
 0 0 R d
 1 1 R d
 2 2 R d
@@ -383,7 +381,7 @@ h 0 L W
 i 1 L W
 j 2 L W
 & & R d
-e :
+e:
 0 0 R e
 1 1 R e
 2 2 R e
@@ -408,7 +406,7 @@ h 1 L W
 i 2 L W
 j 3 L W
 & & R e
-f :
+f:
 0 0 R f
 1 1 R f
 2 2 R f
@@ -433,7 +431,7 @@ h 2 L W
 i 3 L W
 j 4 L W
 & & R f
-g :
+g:
 0 0 R g
 1 1 R g
 2 2 R g
@@ -458,7 +456,7 @@ h 3 L W
 i 4 L W
 j 5 L W
 & & R g
-h :
+h:
 0 0 R h
 1 1 R h
 2 2 R h
@@ -483,7 +481,7 @@ h 4 L W
 i 5 L W
 j 6 L W
 & & R h
-i :
+i:
 0 0 R i
 1 1 R i
 2 2 R i
@@ -508,7 +506,7 @@ h 5 L W
 i 6 L W
 j 7 L W
 & & R i
-j :
+j:
 0 0 R j
 1 1 R j
 2 2 R j
@@ -533,7 +531,7 @@ h 6 L W
 i 7 L W
 j 8 L W
 & & R j
-X :
+X:
 a a L X
 b b L X
 c c L X
@@ -556,7 +554,7 @@ j j L X
 9 9 L X
 & & L T
 x x L X
-Z :
+Z:
 a 0 R Q
 b 1 R Q
 c 2 R Q
@@ -581,7 +579,7 @@ x x L Z
 & & L Z
 * * L Z
 = = R z
-Q :
+Q:
 x x R Q
 0 0 R Q
 1 1 R Q
@@ -607,7 +605,7 @@ g g L q
 h h L q
 i i L q
 j j L q
-q :
+q:
 0 a L Z
 1 b L Z
 2 c L Z
@@ -620,7 +618,7 @@ q :
 9 j L Z
 & k L Z
 * * L q
-z :
+z:
 0 0 R z
 1 1 R z
 2 2 R z
@@ -632,7 +630,7 @@ z :
 8 8 R z
 9 9 R z
 * * R S
-V :
+V:
 . . L v
 0 0 R V
 1 1 R V
@@ -656,7 +654,7 @@ g 6 R v
 h 7 R v
 i 8 R v
 j 9 R v
-v :
+v:
 a a R v
 b b R v
 c c R v
@@ -668,7 +666,7 @@ h h R v
 i i R v
 j j R v
 . a L p
-p :
+p:
 0 0 L p
 1 1 L p
 2 2 L p
@@ -692,7 +690,7 @@ j j L p
 x x L p
 * * R S
 & & L p
-W :
+W:
 0 1 L X
 1 2 L X
 2 3 L X
@@ -703,7 +701,7 @@ W :
 7 8 L X
 8 9 L X
 9 0 L W
-l :
+l:
 0 x L l
 1 x L l
 2 x L l
@@ -717,9 +715,9 @@ l :
 * x L l
 x x L l
 = = R -
-- :
+-:
 x x R k
-k :
+k:
 x - R k
 a 0 R k
 b 1 R k
@@ -743,7 +741,7 @@ j 9 R k
 9 9 R k
 & - R k
 . . L w
-w :
+w:
 0 . L m
 1 . L m
 2 . L m
@@ -754,7 +752,7 @@ w :
 7 . L m
 8 . L m
 9 . L m
-m :
+m:
 0 0 L m
 1 1 L m
 2 2 L m
@@ -766,7 +764,7 @@ m :
 8 8 L m
 9 9 L m
 - - R n
-n :
+n:
 0 - R n
 1 - L 1
 2 - L 2
@@ -777,39 +775,39 @@ n :
 7 - L 7
 8 - L 8
 9 - L 9
-0 :
+0:
 - - L 0
 x 0 R )
-1 :
+1:
 - - L 1
 x 1 R )
-2 :
+2:
 - - L 2
 x 2 R )
-3 :
+3:
 - - L 3
 x 3 R )
-4 :
+4:
 - - L 4
 x 4 R )
-5 :
+5:
 - - L 5
 x 5 R )
-6 :
+6:
 - - L 6
 x 6 R )
-7 :
+7:
 - - L 7
 x 7 R )
-8 :
+8:
 - - L 8
 x 8 R )
-9 :
+9:
 - - L 9
 x 9 R )
-) :
+):
 - x R (
-( :
+(:
 . . L %
 - - R (
 0 - L 0
@@ -822,7 +820,7 @@ x 9 R )
 7 - L 7
 8 - L 8
 9 - L 9
-) :
+):
 0 - L 0
 1 - L 1
 2 - L 2
@@ -833,6 +831,6 @@ x 9 R )
 7 - L 7
 8 - L 8
 9 - L 9
-% :
+%:
 - . L %
 x . L %

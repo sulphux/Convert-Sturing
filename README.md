@@ -3,8 +3,7 @@ Convert-Sturing
 
 A simple program that can decode your *.mt files to *.t .
 
-# Simple *.mt file to convert ( without '=' ):
-
+# Simple *.mt file to convert :
 
 ---
 ```
